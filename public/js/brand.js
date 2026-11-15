@@ -62,16 +62,17 @@ const appSwitcher = document.getElementById('appSwitcher');
 
 let brand = {
     app: {
-        language: 'en',
+            app: {
+        language: 'fr',
         translationMode: 'google',
-        name: 'MiroTalk',
-        title: 'MiroTalk<br />Free browser based Real-time video calls.<br />Simple, Secure, Fast.',
+        name: 'AZI-MiroTalk',
+        title: 'AZI-MiroTalk<br />Visio gratuite, directe et Indétectable par un MDM.<br />Simple, Sécurisé, rapide.',
         description:
-            'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
-        joinDescription: 'Pick a room name.<br />How about this one?',
-        joinButtonLabel: 'JOIN ROOM',
-        customizeRoomButtonLabel: 'CUSTOMIZE ROOM',
-        joinLastLabel: 'Your recent room:',
+            "Démarrez votre prochain appel vidéo en un seul clic. Aucun téléchargement, plug-in ou inscription requis. Passez directement à la discussion, aux messages et au partage d'écran.",
+        joinDescription: 'Choisissez un nom de salon.<br />Que pensez-vous de celui-ci ?',
+        joinButtonLabel: 'REJOINDRE',
+        customizeRoomButtonLabel: 'PERSONNALISER LE SALON',
+        joinLastLabel: 'Votre salon récent :',
     },
     site: {
         shortcutIcon: '../images/logo.svg',
@@ -105,19 +106,19 @@ let brand = {
         waitingRoomSongUrl: '',
     },
     html: {
-        topSponsors: true,
-        about: true,
-        features: true,
-        faq: true,
-        teams: true, // please keep me always true ;)
-        tryEasier: true,
-        poweredBy: true,
-        sponsors: true,
-        pastSponsors: true,
-        advertisers: true,
-        supportUs: true,
-        footer: true,
-        version: true,
+        topSponsors: false,
+        about: false,
+        features: false,
+        faq: false,
+        teams: false, // please keep me always true ;)
+        tryEasier: false,
+        poweredBy: false,
+        sponsors: false,
+        pastSponsors: false,
+        advertisers: false,
+        supportUs: false,
+        footer: false,
+        version: false,
         appSwitcher: false,
     },
     about: {
