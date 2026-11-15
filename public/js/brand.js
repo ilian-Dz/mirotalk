@@ -61,18 +61,18 @@ const appSwitcher = document.getElementById('appSwitcher');
 // Brand customizations...
 
 let brand = {
+    
     app: {
-            app: {
-        language: 'fr',
+        language: 'en',
         translationMode: 'google',
-        name: 'AZI-MiroTalk',
-        title: 'AZI-MiroTalk<br />Visio gratuite, directe et Indétectable par un MDM.<br />Simple, Sécurisé, rapide.',
+        name: 'MiroTalk',
+        title: 'MiroTalk<br />Visio gratuite, directe et Indetectable par un MDM.<br />Simple, Securisé, rapide.',
         description:
-            "Démarrez votre prochain appel vidéo en un seul clic. Aucun téléchargement, plug-in ou inscription requis. Passez directement à la discussion, aux messages et au partage d'écran.",
-        joinDescription: 'Choisissez un nom de salon.<br />Que pensez-vous de celui-ci ?',
-        joinButtonLabel: 'REJOINDRE',
-        customizeRoomButtonLabel: 'PERSONNALISER LE SALON',
-        joinLastLabel: 'Votre salon récent :',
+            'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
+        joinDescription: 'Pick a room name.<br />How about this one?',
+        joinButtonLabel: 'JOIN ROOM',
+        customizeRoomButtonLabel: 'CUSTOMIZE ROOM',
+        joinLastLabel: 'Your recent room:',
     },
     site: {
         shortcutIcon: '../images/logo.svg',
