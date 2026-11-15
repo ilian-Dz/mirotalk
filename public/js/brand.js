@@ -64,7 +64,6 @@ let brand = {
     
     app: {
         language: 'en',
-        translationMode: 'google',
         name: 'MiroTalk',
         title: 'MiroTalk<br />Visio gratuite, directe et Indetectable par un MDM.<br />Simple, Securisé, rapide.',
         description:
